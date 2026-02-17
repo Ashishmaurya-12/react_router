@@ -1,16 +1,92 @@
-# React + Vite
+# React Router Project 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application built using React Router v6 with nested routes, dynamic routing, and layout structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
 
-## React Compiler
+- ✅ Nested Routing
+- ✅ Dynamic Routes (`/user/:userId`)
+- ✅ Layout with Header & Footer
+- ✅ Active NavLink Styling
+- ✅ 404 Error Handling
+- ✅ Clean Folder Structure
+- ✅ Built with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+react_router/
+│
+├── src/
+│ ├── components/
+│ │ ├── Header/
+│ │ ├── Footer/
+│ │ ├── Home/
+│ │ ├── About/
+│ │ ├── Contact/
+│ │ ├── User/
+│ │ └── Github/
+│ │
+│ ├── Layout.jsx
+│ ├── main.jsx
+│ └── App.jsx
+│
+├── package.json
+└── vite.config.js
+
+
+---
+
+## 🛣️ Routes
+
+| Path | Description |
+|------|------------|
+| `/` | Home Page |
+| `/about` | About Page |
+| `/contact` | Contact Page |
+| `/github` | Github Page |
+| `/user/:userId` | Dynamic User Page |
+
+---
+
+## 🧠 Concepts Covered
+
+- `createBrowserRouter`
+- `RouterProvider`
+- `NavLink`
+- `Outlet`
+- Dynamic Params (`useParams`)
+- Nested Routes
+- Absolute vs Relative Paths
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- React Router DOM
+- Vite
+- Tailwind CSS
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/yourusername/react_router.git
+cd react_router
+npm install
+npm run dev
+👨‍💻 Author
+Ashish Maurya
+
+⭐ If you like this project
+Give it a star on GitHub ⭐
+
+
+---
+
+# 🔥 Pro Version (Optional Enhancement)
